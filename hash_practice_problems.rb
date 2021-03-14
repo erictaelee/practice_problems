@@ -69,7 +69,7 @@
 # p definition
 
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
-shirt = {"brand" => "Gucci", "color" => "black", "size" => "Small"}
-p shirt["brand"]
-p shirt["color"]
-p shirt["size"]
+# shirt = {"brand" => "Gucci", "color" => "black", "size" => "Small"}
+# p shirt["brand"]
+# p shirt["color"]
+# p shirt["size"]
