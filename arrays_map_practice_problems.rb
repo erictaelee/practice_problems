@@ -30,6 +30,25 @@ p new_numbers
 #  2. Start with an array of strings and create a new array with each string upcased.
 #     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
 
+strings = ["hello", "goodbye"]
+new_strings = []
+strings.each do |string|
+  new_strings << string.upcase
+end
+p new_strings
+
+strings = ["hello", "goodbye"]
+p strings.map {|string| string.upcase}
+
+strings = ["hello", "goodbye"]
+new_strings = []
+i = 0
+while i < strings.length
+  new_strings << strings[i].upcase
+  i += 1
+end
+p new_strings
+
 #  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
 

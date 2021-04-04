@@ -1,6 +1,13 @@
 var numbers = [1, 2, 3];
-new_numbers = [];
+var newNumbers = [];
 numbers.forEach(function (number) {
-  new_numbers.push(number * 3);
+  newNumbers.push(number * 3);
 })
-console.log(new_numbers)
+console.log(newNumbers)
+
+var strings = ["hello", "goodbye"];
+var newStrings = [];
+strings.forEach(function (string) {
+  newStrings.push(string.toUpperCase());
+})
+console.log(newStrings)
