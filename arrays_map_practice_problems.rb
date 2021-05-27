@@ -133,3 +133,19 @@ p new_array
 # end
 
 # p new_array
+
+items = [
+  {id: 1, body: 'foo'},
+  {id: 2, body: 'bar'},
+  {id: 3, body: 'foobar'}
+]
+
+# [1, 2, 3]
+items[0][:id]
+
+items2 = []
+items.map do |number| {
+  items2[number][:id]
+}
+end
+p items2
